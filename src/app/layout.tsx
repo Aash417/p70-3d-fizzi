@@ -18,12 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={alpino.variable}>
-      <body className="overflow-hidden bg-yellow-300">
-        <Header />
-        <main>{children}</main>
-      </body>
-      <PrismicPreview repositoryName={repositoryName} />
-    </html>
+     <html lang="en" className={alpino.variable}>
+        <body className="bg-yellow-300">
+           <Header />
+           <main>{children}</main>
+        </body>
+        <PrismicPreview repositoryName={repositoryName} />
+     </html>
   );
 }
