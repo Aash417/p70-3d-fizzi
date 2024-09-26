@@ -50,7 +50,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             start: "top top",
             end: "bottom bottom",
             scrub: 1.5,
-            markers: true,
+            // markers: true,
          },
       });
 
@@ -88,7 +88,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
          <div className="grid">
             <div className="grid h-screen place-items-center">
                <div className="grid text-center auto-rows-min place-items-center">
-                  <h1 className="hero-header upppercase lg:text:-[13rem] text-7xl font-black leading-[.8] text-orange-500 md:text-[9rem] lg:text-[13rem]">
+                  <h1 className="hero-header lg:text:-[13rem] text-7xl font-black uppercase leading-[.8] text-orange-500 md:text-[9rem] lg:text-[13rem]">
                      <TextSplitter
                         text={asText(slice.primary.heading)}
                         className="hero-header-word"
