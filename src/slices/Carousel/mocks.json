@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Chance"
+						}
+					}
+				]
+			},
+			"price_copy": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Pariatur in ut ullamco minim consectetur proident consequat minim proident esse ut occaecat aute magna. Cillum labore laborum labore ut duis aute velit incididunt duis deserunt ipsum elit qui magna. Proident ut culpa in deserunt eiusmod Lorem anim aliqua ullamco amet ipsum voluptate eiusmod."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
