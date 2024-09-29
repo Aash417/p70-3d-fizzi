@@ -1,99 +1,99 @@
 [
-	{
-		"__TYPE__": "SharedSliceContent",
-		"variation": "default",
-		"primary": {
-			"heading": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "heading1",
-						"content": {
-							"text": "Mouth"
-						}
-					}
-				]
-			},
-			"subheading": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Sunt ex aute nostrud tempor sit cillum et proident velit sit."
-						}
-					}
-				]
-			},
-			"body": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Ipsum non quis ullamco enim nulla sunt ad qui culpa. Magna ipsum adipisicing ad. Labore minim sint ad amet occaecat minim non ipsum elit deserunt consequat magna officia exercitation laboris."
-						}
-					}
-				]
-			},
-			"button_text": {
-				"__TYPE__": "FieldContent",
-				"value": "everyone",
-				"type": "Text"
-			},
-			"button_link": {
-				"__TYPE__": "LinkContent",
-				"value": {
-					"__TYPE__": "ExternalLink",
-					"url": "http://twitter.com"
-				}
-			},
-			"cans_image": {
-				"origin": {
-					"id": "main",
-					"url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
-					"width": 4024,
-					"height": 4024
-				},
-				"url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
-				"width": 4024,
-				"height": 4024,
-				"edit": {
-					"zoom": 1,
-					"crop": {
-						"x": 0,
-						"y": 0
-					},
-					"background": "transparent"
-				},
-				"credits": null,
-				"alt": null,
-				"__TYPE__": "ImageContent",
-				"thumbnails": {}
-			},
-			"second_heading": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "heading2",
-						"content": {
-							"text": "Lovely"
-						}
-					}
-				]
-			},
-			"second_body": {
-				"__TYPE__": "StructuredTextContent",
-				"value": [
-					{
-						"type": "paragraph",
-						"content": {
-							"text": "Consectetur laborum ex cupidatat Lorem deserunt officia duis Lorem anim."
-						}
-					}
-				]
-			}
-		},
-		"items": []
-	}
+   {
+      "__TYPE__": "SharedSliceContent",
+      "variation": "default",
+      "primary": {
+         "heading": {
+            "__TYPE__": "StructuredTextContent",
+            "value": [
+               {
+                  "type": "heading1",
+                  "content": {
+                     "text": "Mouth"
+                  }
+               }
+            ]
+         },
+         "subheading": {
+            "__TYPE__": "StructuredTextContent",
+            "value": [
+               {
+                  "type": "paragraph",
+                  "content": {
+                     "text": "Sunt ex aute nostrud tempor sit cillum et proident velit sit."
+                  }
+               }
+            ]
+         },
+         "body": {
+            "__TYPE__": "StructuredTextContent",
+            "value": [
+               {
+                  "type": "paragraph",
+                  "content": {
+                     "text": "Ipsum non quis ullamco enim nulla sunt ad qui culpa. Magna ipsum adipisicing ad. Labore minim sint ad amet occaecat minim non ipsum elit deserunt consequat magna officia exercitation laboris."
+                  }
+               }
+            ]
+         },
+         "button_text": {
+            "__TYPE__": "FieldContent",
+            "value": "everyone",
+            "type": "Text"
+         },
+         "button_link": {
+            "__TYPE__": "LinkContent",
+            "value": {
+               "__TYPE__": "ExternalLink",
+               "url": "http://twitter.com"
+            }
+         },
+         "cans_image": {
+            "origin": {
+               "id": "main",
+               "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
+               "width": 4024,
+               "height": 4024
+            },
+            "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
+            "width": 4024,
+            "height": 4024,
+            "edit": {
+               "zoom": 1,
+               "crop": {
+                  "x": 0,
+                  "y": 0
+               },
+               "background": "transparent"
+            },
+            "credits": null,
+            "alt": null,
+            "__TYPE__": "ImageContent",
+            "thumbnails": {}
+         },
+         "second_heading": {
+            "__TYPE__": "StructuredTextContent",
+            "value": [
+               {
+                  "type": "heading2",
+                  "content": {
+                     "text": "Lovely"
+                  }
+               }
+            ]
+         },
+         "second_body": {
+            "__TYPE__": "StructuredTextContent",
+            "value": [
+               {
+                  "type": "paragraph",
+                  "content": {
+                     "text": "Consectetur laborum ex cupidatat Lorem deserunt officia duis Lorem anim."
+                  }
+               }
+            ]
+         }
+      },
+      "items": []
+   }
 ]

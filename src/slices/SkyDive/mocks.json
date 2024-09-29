@@ -1,19 +1,19 @@
 [
-	{
-		"__TYPE__": "SharedSliceContent",
-		"variation": "default",
-		"primary": {
-			"sentence": {
-				"__TYPE__": "FieldContent",
-				"value": "voice",
-				"type": "Text"
-			},
-			"flavor": {
-				"__TYPE__": "FieldContent",
-				"value": "strawberryLemonade",
-				"type": "Select"
-			}
-		},
-		"items": []
-	}
+   {
+      "__TYPE__": "SharedSliceContent",
+      "variation": "default",
+      "primary": {
+         "sentence": {
+            "__TYPE__": "FieldContent",
+            "value": "voice",
+            "type": "Text"
+         },
+         "flavor": {
+            "__TYPE__": "FieldContent",
+            "value": "strawberryLemonade",
+            "type": "Select"
+         }
+      },
+      "items": []
+   }
 ]

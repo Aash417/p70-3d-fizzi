@@ -82,21 +82,21 @@ const Carousel = ({ slice }: CarouselProps): JSX.Element => {
       >
          <div className="background pointer-events-none absolute inset-0 bg-[#710523] opacity-50" />
 
+         <WavyCircles className="absolute left-1/2 top-1/2 h-[120vmin] -translate-x-1/2 -translate-y-1/2 text-[#710523]" />
+
          <h2 className="relative text-center text-5xl font-bold">
             <PrismicText field={slice.primary.heading} />
          </h2>
-         <WavyCircles className="absolute left-1/2 top-1/2 h-[120vmin] -translate-x-1/2 -translate-y-1/2 text-[#710523]" />
 
          <div className="grid grid-cols-[auto,auto,auto] items-center">
-            {/* left */}
+            {/* Left */}
             <ArrowButton
                onClick={() => changeFlavor(currentFlavorIndex + 1)}
-               label="Previous Flavor"
                direction="left"
+               label="Previous Flavor"
             />
-
-            {/* can */}
-            <View className="aspect-square h-[70vh] min-h-40">
+            {/* Can */}
+            <View className="aspect-square h-[70vmin] min-h-40">
                <Center position={[0, 0, 1.5]}>
                   <FloatingCan
                      ref={sodaCanRef}
@@ -113,12 +113,11 @@ const Carousel = ({ slice }: CarouselProps): JSX.Element => {
                />
                <directionalLight intensity={6} position={[0, 1, 1]} />
             </View>
-
-            {/* right */}
+            {/* Right */}
             <ArrowButton
                onClick={() => changeFlavor(currentFlavorIndex - 1)}
-               label="Next Flavor"
                direction="right"
+               label="Next Flavor"
             />
          </div>
 
